@@ -76,6 +76,12 @@ configFile.save(writer -> {
 - Fabric Loader 0.19+
 - Java 25+
 
+## Credits
+
+Original creator: [Brokkonaut](https://github.com/Brokkonaut)
+
+Maintained by the [Updated-VoxelMap](https://github.com/Updated-VoxelMap) organization.
+
 ## License
 
 MIT
