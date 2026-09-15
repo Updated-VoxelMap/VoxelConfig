@@ -8,7 +8,7 @@ val minecraftVersion = "26.3-rc-2"
 val fabricVersion = "0.19.5"
 
 group = "de.voxelmap"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
