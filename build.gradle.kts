@@ -4,11 +4,11 @@ plugins {
     id("maven-publish")
 }
 
-val minecraftVersion = "26.3-rc-2"
+val minecraftVersion = "26.3"
 val fabricVersion = "0.19.5"
 
 group = "de.voxelmap"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
