@@ -1,4 +1,4 @@
-package de.tobi.voxelconfig;
+package de.voxelmap.voxelconfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,6 @@ import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphicsExtractor;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.client.input.KeyEvent;
-import net.minecraft.client.input.MouseButtonEvent;
 import net.minecraft.network.chat.Component;
 
 /**

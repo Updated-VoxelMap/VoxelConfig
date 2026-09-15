@@ -1,4 +1,4 @@
-package de.tobi.voxelconfig;
+package de.voxelmap.voxelconfig;
 
 import java.util.List;
 

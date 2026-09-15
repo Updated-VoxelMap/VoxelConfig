@@ -1,4 +1,4 @@
-package de.tobi.voxelconfig;
+package de.voxelmap.voxelconfig;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import java.util.function.Consumer;

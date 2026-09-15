@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("de.tobi:voxelconfig:1.0.0")
+    implementation("de.voxelmap:voxelconfig:1.0.0")
     // Use the Shadow Plugin to shade this directly into your final jar!
 }
 ```

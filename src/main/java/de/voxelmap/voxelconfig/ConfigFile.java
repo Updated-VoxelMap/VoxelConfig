@@ -1,4 +1,4 @@
-package de.tobi.voxelconfig;
+package de.voxelmap.voxelconfig;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
