@@ -11,8 +11,8 @@ group = "de.voxelmap"
 version = "1.0.2"
 
 java {
-    withSourcesJar()
-    withJavadocJar()
+    withsourcesjar()
+    withjavadocjar()
 }
 
 repositories {
@@ -55,6 +55,11 @@ publishing {
                 else
                     releasesUrl
             )
+            
+            credentials {
+                username = findProperty("mavenUsername") as String?
+                password = findProperty("mavenPassword") as String?
+            }
         }
     }
 }
