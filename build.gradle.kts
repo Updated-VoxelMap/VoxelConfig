@@ -57,8 +57,8 @@ publishing {
             )
             
             credentials {
-                username = findProperty("mavenUsername") as String?
-                password = findProperty("mavenPassword") as String?
+                username = System.getenv("MAVEN_USERNAME") as String?
+                password = System.getenv("MAVEN_PASSWORD") as String?
             }
         }
     }
