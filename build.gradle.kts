@@ -11,8 +11,8 @@ group = "de.voxelmap"
 version = "1.0.2"
 
 java {
-    withsourcesjar()
-    withjavadocjar()
+    withSourcesJar()
+    withJavadocJar()
 }
 
 repositories {
