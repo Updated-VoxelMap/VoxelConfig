@@ -10,6 +10,11 @@ val fabricVersion = "0.19.5"
 group = "de.voxelmap"
 version = "1.0.2"
 
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
 repositories {
     mavenCentral()
 }
@@ -38,6 +43,18 @@ publishing {
         }
     }
     repositories {
-        maven("file://${System.getenv("local_maven")}")
+        maven {
+            name = "iani"
+
+            val releasesUrl = "https://www.iani.de/nexus/content/repositories/releases/"
+            val snapshotsUrl = "https://www.iani.de/nexus/content/repositories/snapshots/"
+
+            url = uri(
+                if (version.toString().endsWith("-SNAPSHOT"))
+                    snapshotsUrl
+                else
+                    releasesUrl
+            )
+        }
     }
 }
